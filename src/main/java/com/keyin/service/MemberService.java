@@ -1,9 +1,9 @@
 package com.keyin.service;
 
-import com.keyin.model.Member;
-import com.keyin.repository.MemberRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import com.keyin.model.Member;
+import com.keyin.repository.MemberRepository;
 import java.util.List;
 import java.util.Optional;
 
