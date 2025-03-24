@@ -55,7 +55,6 @@ public class TournamentService {
         return tournamentRepository.save(tournament);
     }
 
-
     public List<Member> getAllMembersInTournament(Long tournamentId) {
         Tournament tournament = tournamentRepository.findById(tournamentId)
                 .orElseThrow(() -> new IllegalArgumentException(
